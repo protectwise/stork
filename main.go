@@ -9,7 +9,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "stork"
 	app.Usage = "retrieve tokens from a Vault server via EC2 metadata"
-	app.version = "1.0.0"
+	app.Version = "1.0.0"
 
 	app.Commands = []cli.Command{
 		{
